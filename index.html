@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отель "Лазурный Берег" - Ялта, Крым</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">PАRK АVENUE</div>
+                <ul class="nav-links">
+                    <li><a href="#about">Об отеле</a></li>
+                    <li><a href="#rooms">Номера</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+            
+            <div class="header-content">
+                <h1>Отдых вашей мечты в Ялте</h1>
+                <p>Отель "PАRK АVENUE" предлагает комфортабельные номера с видом на море, высокий уровень сервиса и незабываемые впечатления от отдыха в Крыму.</p>
+                <a href="#rooms" class="btn">Выбрать номер</a>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Об отеле -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Об отеле</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Роскошный отдых на берегу Черного моря</h3>
+                    <p>Если вы планируете провести время в Крыму и насладиться уникальной природой, жилой комплекс Парк Авеню идеально подойдёт для вас. Мы предлагаем уютные номера с видом на море. В нашем отеле вы сможете почувствовать себя как дома. А наши менеджеры по бронированию открыты для общения, и проконсультируют вас по любому вопросу, посоветуют с выбором номера, расскажут об особенностях отеля и отдыха в Крыму.</p>
+                    <p>Открытый в 2018 году после полной реконструкции, отель предлагает 45 номеров различных категорий, ресторан с панорамным видом на море, спа-центр и все необходимое для идеального отдыха.</p>
+                    <p>Мы гордимся высоким уровнем сервиса и вниманием к каждому гостю. Наша команда сделает все возможное, чтобы ваш отдых в Крыму стал незабываемым.</p>
+                </div>
+                <div class="about-image">
+                    <img src="img/15791226752567-370x360.jpg" alt="отель">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Номера -->
+    <section id="rooms" class="rooms">
+        <div class="container">
+            <h2 class="section-title">Наши номера</h2>
+            <div class="rooms-grid">
+                <!-- Номера будут загружены через JavaScript -->
+            </div>
+        </div>
+    </section>
+    
+    <!-- Услуги -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Наши услуги</h2>
+            <div class="services-grid">
+                <!-- Услуги будут загружены через JavaScript -->
+            </div>
+        </div>
+    </section>
+    
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Как нас найти</h3>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <p>Крым, г. Ялта, пгт. Кореиз,
+                                Алупкинское шоссе, 34 е</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <p>+7 (978) 292 27 53</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <p> hotel@pa-hotel.ru</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <p>Круглосуточная работа</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Остались вопросы?</h3>
+                    <p>Напишите нам, и мы с радостью ответим на все ваши вопросы!</p>
+                    <form id="feedbackForm">
+                        <div class="form-group">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" id="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Сообщение</label>
+                            <textarea id="message" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Подвал -->
+    <footer>
+        <div class="container">
+            <div class="logo">PARK AVENUE</div>
+            <ul class="footer-links">
+                <li><a href="#about">Об отеле</a></li>
+                <li><a href="#rooms">Номера</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#contact">Контакты</a></li>
+                <li><a href="#">Политика конфиденциальности</a></li>
+            </ul>
+            
+            <ul class="social-links">
+                <li><a href="#"><i class="fab fa-vk"></i></a></li>
+                <li><a href="#"><i class="fab fa-telegram"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            </ul>
+            
+            <div class="copyright">
+                <p>&copy; <span id="currentYear"></span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
